@@ -1,0 +1,28 @@
+/*
+* sass --watch assets/css/sass/main.scss:assets/css/style.min.css --style compressed
+*/
+
+// BASE
+@import 
+    'base/reset',
+    'base/typography',
+    'base/base';
+
+// COMPONENTS
+@import
+    'components/buttons',
+    'components/cards',
+    'components/forms';
+
+// LAYOUT
+@import
+    'layout/header',
+    'layout/footer';
+
+// PAGES
+
+// UTILITIES
+@import
+    'utilities/variables',
+    'utilities/mixins',
+    'utilities/functions';
